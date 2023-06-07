@@ -1,0 +1,41 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns2:InquireMidUserDetailscallResponse xmlns:ns2="http://tempuri.org/InquireMidUserDetails/">
+         <InquireMidUserDetailsExport command="?" exitState="0" exitStateType="3" exitStateMsg="">
+            <Response>
+               <ReturnCode>1</ReturnCode>
+               <ReturnMessage>Success</ReturnMessage>
+            </Response>
+            <ResponseMidUserDetails>
+               <CivilIdNumber>285063000886</CivilIdNumber>
+               <FullNameAr>لينا عبد العزيز</FullNameAr>
+               <FullNameEn>LEENA AZIZ</FullNameEn>
+               <NationalityEn>KUWAIT</NationalityEn>
+               <NationalityAr>ALKUWAIT</NationalityAr>
+               <BirthDate>19851203</BirthDate>
+               <Gender>F</Gender>
+               <MobileNumber>60472059</MobileNumber>
+               <EmailId>LEENA@MOI.GOV.KW</EmailId>
+               <BloodGroup>AB+</BloodGroup>
+               <CardSerialNumber>546132</CardSerialNumber>
+               <CardExpiryDate>20251231</CardExpiryDate>
+               <DocumentNumber>456</DocumentNumber>
+               <PassportNumber>P3W456</PassportNumber>
+               <MoiReferenceNumber>100011429</MoiReferenceNumber>
+               <SponsorName>SDFG</SponsorName>
+               <Governorate>الفروانية</Governorate>
+               <Area>SAFDG</Area>
+               <PaciBuildingNumber>45768</PaciBuildingNumber>
+               <BuildingType>2Q345</BuildingType>
+               <FloorNumber>100</FloorNumber>
+               <BuildingNumber>7</BuildingNumber>
+               <BlockNumber>3</BlockNumber>
+               <UnitNumber>56</UnitNumber>
+               <StreetName>ASFDG</StreetName>
+               <UnitType>TYPE</UnitType>
+               <LastUpdTs>20220330101854167000</LastUpdTs>
+            </ResponseMidUserDetails>
+         </InquireMidUserDetailsExport>
+      </ns2:InquireMidUserDetailscallResponse>
+   </soap:Body>
+</soap:Envelope>

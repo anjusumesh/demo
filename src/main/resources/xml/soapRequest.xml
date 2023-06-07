@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:inq="http://tempuri.org/InquireMidUserDetails/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <inq:InquireMidUserDetailscall>
+         <!--Optional:-->
+         <InquireMidUserDetailsImport command="?" clientId="?" clientPassword="?" nextLocation="?" exitState="0" dialect="?">
+            <!--Optional:-->
+            <RequestMidUserDetails>
+               <!--Optional:-->
+               <CivilIdNumber>285063000886</CivilIdNumber>
+            </RequestMidUserDetails>
+         </InquireMidUserDetailsImport>
+      </inq:InquireMidUserDetailscall>
+   </soapenv:Body>
+</soapenv:Envelope>

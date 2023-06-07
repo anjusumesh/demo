@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="InquireMidUserDetailsExport">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Response">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:byte" name="ReturnCode"/>
+              <xs:element type="xs:string" name="ReturnMessage"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ResponseMidUserDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:long" name="CivilIdNumber"/>
+              <xs:element type="xs:string" name="FullNameAr"/>
+              <xs:element type="xs:string" name="FullNameEn"/>
+              <xs:element type="xs:string" name="NationalityEn"/>
+              <xs:element type="xs:string" name="NationalityAr"/>
+              <xs:element type="xs:int" name="BirthDate"/>
+              <xs:element type="xs:string" name="Gender"/>
+              <xs:element type="xs:int" name="MobileNumber"/>
+              <xs:element type="xs:string" name="EmailId"/>
+              <xs:element type="xs:string" name="BloodGroup"/>
+              <xs:element type="xs:int" name="CardSerialNumber"/>
+              <xs:element type="xs:int" name="CardExpiryDate"/>
+              <xs:element type="xs:short" name="DocumentNumber"/>
+              <xs:element type="xs:string" name="PassportNumber"/>
+              <xs:element type="xs:int" name="MoiReferenceNumber"/>
+              <xs:element type="xs:string" name="SponsorName"/>
+              <xs:element type="xs:string" name="Governorate"/>
+              <xs:element type="xs:string" name="Area"/>
+              <xs:element type="xs:int" name="PaciBuildingNumber"/>
+              <xs:element type="xs:string" name="BuildingType"/>
+              <xs:element type="xs:byte" name="FloorNumber"/>
+              <xs:element type="xs:byte" name="BuildingNumber"/>
+              <xs:element type="xs:byte" name="BlockNumber"/>
+              <xs:element type="xs:byte" name="UnitNumber"/>
+              <xs:element type="xs:string" name="StreetName"/>
+              <xs:element type="xs:string" name="UnitType"/>
+              <xs:element type="xs:integer" name="LastUpdTs"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="command"/>
+      <xs:attribute type="xs:byte" name="exitState"/>
+      <xs:attribute type="xs:byte" name="exitStateType"/>
+      <xs:attribute type="xs:string" name="exitStateMsg"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
